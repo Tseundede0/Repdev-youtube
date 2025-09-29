@@ -1,0 +1,240 @@
+.p{
+    font-family: Roboto,Arial;
+}
+.tb1{
+    width: 100%;
+}
+.vt1{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 250px;
+    
+}
+.vp1{
+    font-family: Roboto;
+}
+.pr1{
+    display: inline-block;
+    width: 45px;
+    vertical-align: top;
+}
+.vi1{
+    display: inline-block;
+    width: 200px;
+    font-family: Roboto;
+}
+.p1{
+    width: 100%;
+    border-radius: 45px;
+}
+.thr1{
+    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-right: 12px;
+    position: relative;
+}
+.v-t{
+    position: absolute;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.vs1,.va1{
+    font-size: 12px;
+    color:  rgb(96, 96, 96);
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+.l2{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.vg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 40px;
+}
+body{
+    margin: 0;
+    height: 1500px;
+    padding-top: 72px;
+    padding-left: 80px;
+    background-color: rgb(247, 245, 245);
+}
+.he{
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(230, 229, 229);
+        border-bottom-style: solid;
+        z-index: 100;
+}
+.lh{
+    display: flex;
+}
+.mh{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 680px;
+    display: flex;
+    align-items: center;
+
+}
+.rh{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hm{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.yl{
+    height: 21px;
+}
+.si{
+    height: 24px;
+    margin-top: 4px;
+}
+.sib{
+    height: 39px;
+    width: 60px;
+    background-color: rgb(247, 247, 247);
+    border-width: 1px;
+    border-color:  rgb(204, 204, 204);
+    border-style: solid;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.vs{
+    height: 24px;
+}
+.vb{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 6px;
+}
+.sb{
+    flex: 1;
+    height: 36px;
+        border-width: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: inset 1px 2px 3px 
+    rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+}
+.sb::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.ui{
+    height: 24px;
+}
+.uib{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4px;
+    background-color: white;
+}
+.yai{
+    height: 24px;
+}
+.yaib{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4px;
+    background-color: white;
+}
+.ni{
+    height: 24px;
+}
+.nib{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4px;
+    background-color: white;
+}
+.pp{
+    height: 38px;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ppb{
+    height: 38px;
+    width: 38px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4px;
+    background-color: white;
+}
+.sdb{
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 58px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+}
+.ih img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.ih div{
+    font-family: Roboto;
+    font-size: 10px;
+}
+.ih{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.ih:hover{
+    background-color: rgb(228, 227, 227);
+}
+.n{
+    position: relative;
+}
+.n-t{
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 20px;
+    border-radius: 10px;
+}
+
